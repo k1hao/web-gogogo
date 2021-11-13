@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GOGOGO秒杀</title>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <style>
+        .mod_help>dl:nth-child(1){ position:relative;top:50px; left:100px; }
+        .mod_service.mod_service>ul>li{top:5px;}
+        .hr1{position: absolute;}
+        .mod_help>dl:first-child{width: 295px;top:-40px;left:130px;}
+        .mod_help>dl:nth-child(2){top:-218px;left:330px;}
+        .mod_help>dl:nth-child(3){top:-398px;left:500px;}
+        .mod_help>dl:nth-child(4){ top:-575px;left:670px;}
+        .mod_help>dl:nth-child(5){top:-754px;left:860px;}
+        .mod_help>dl:nth-child(6){ top:-924px;left:1030px;}
+        .help_d1>dt{ margin-left:37px;}
+        .search{left:80px;}
+        .hotwords{left:180px;margin:100px 300px;}
+        .shopcar{left:80px;}
+        .hr0{position:relative;top:-35px;border:1px solid rgb(225,37,27);}
+        .go{width:100px;position: relative;top:-35px;left:200px;font-size: 20px;font-weight: bold;}
+        .line{height:10px;background-color: red;}
+        .logo{color:rgb(225,37,27);}
+        .logo>img:nth-child(2){position: relative;top:-15px;left:10px;}
+        .bottom>img{
+            width: 2136px;
+        }
+    </style>
+</head>
+<body>
+    <!--shortcut部分-->
+    <section class="shortcut">
+        <div>
+            <div class="box1">
+                GOGOGO欢迎您！&nbsp;&nbsp;&nbsp;
+                <a href="login.html" class="login">请登录</a>&nbsp;&nbsp;
+                <span><a href="login.html">免费注册</a></span>
+            </div>
+            <div class="box2">
+                <a href="#" class="order">我的订单</a> &nbsp;&nbsp;| &nbsp;&nbsp;
+                我的GOGOGO<span> </span>&nbsp;&nbsp;| &nbsp;&nbsp;
+                <a href="#">GOGOGO会员</a>&nbsp;&nbsp;| &nbsp;&nbsp;
+                <a href="#">企业采购</a> &nbsp;&nbsp;| &nbsp;&nbsp;
+                <a href="#">关注GOGOGO</a> <span> </span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                客服服务<span> </span>&nbsp;&nbsp; | &nbsp;&nbsp;
+                <a href="#">网站导航</a><span> </span>
+            </div>
+        </div>
+    </section>
+    <!--header部分-->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.gif" alt=""> </a>
+            <img src="img/sk.png" alt="">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="python语言开发">
+            <button><span></span></button>
+        </div>
+        <div class="hotwords">
+            <span>优惠购首发</span>&nbsp;&nbsp;&nbsp;
+            <span>
+                亿元优惠&nbsp;&nbsp;&nbsp;
+                9.9元团购&nbsp;&nbsp;&nbsp;
+                每满99减30&nbsp;&nbsp;&nbsp;
+                办公用品&nbsp;&nbsp;&nbsp;
+                电脑&nbsp;&nbsp;&nbsp;
+                通信&nbsp;&nbsp;&nbsp;
+            </span>
+        </div>
+        <div class="shopcar">
+            <a href="#" class="a">
+                <span class="cart"></span>
+                <span class="txt">我的购物车</span>
+                <span class="count"></span><span class="down"></span>
+            </a>
+        </div>
+    </header>
+    <p class="go">GO秒杀</p>
+    <hr class="hr0">
+    <!--list部分-->
+    <div class="cont">
+        <div class="top">
+            <p class="bgcolor"><span>正在秒杀距离结束</span><span id="time1"></span></p>
+            <p class="font"><span id="time2"></span><span>即将开始</span></p>
+            <p class="font"><span id="time3"></span><span>即将开始</span></p>
+            <p class="font"><span id="time4"></span><span>即将开始</span></p>
+        </div>
+        <div class="bottom">
+            <div class="item">
+                <div class="pic"><img src="img/book.png" height="175px" ></div>
+                <div class="txt">
+                    <p>零基础学Java</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥49.8</span><span>原价：￥69.8</span></p>
+                    <p><input type="button" value="已抢13/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book2.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>JavaScript程序设计</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥108.8</span><span>原价：￥120.8</span></p>
+                    <p><input type="button" value="已抢44/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book3.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>Effective C++</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥88.8</span><span>原价：￥99.8</span></p>
+                    <p><input type="button" value="已抢25/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book4.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>码农翻身</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥99.8</span><span>原价：￥129.8</span></p>
+                    <p><input type="button" value="已抢24/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book5.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>算法导论</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥120.5</span><span>原价：￥199.8</span></p>
+                    <p><input type="button" value="已抢42/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book6.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>Python数据分析</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥69.5</span><span>原价：￥88.8</span></p>
+                    <p><input type="button" value="已抢14/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book7.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>R语言实战</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥88.0</span><span>原价：￥99.5</span></p>
+                    <p><input type="button" value="已抢6/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic"><img src="img/book8.jpg" height="175px" width="146px"></div>
+                <div class="txt">
+                    <p>labuladong算法小抄</p>
+                    <p>通俗易懂&nbsp;流行有趣</p>
+                    <p class="price"><span>￥79.8</span><span>原价：￥99.8</span></p>
+                    <p><input type="button" value="已抢34/50件"><input type="button" value="立即抢购"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!--foot底部部分-->
+    <footer class="footer">
+        <div class="mod_service">
+            <ul>
+                <li>
+                    <h5><img src="img/service_img01.jpg" alt=""></h5>
+                    <div>
+                        <h4 class="service_txt ">正品保障
+                            <p>
+                            正品保障,提供发票
+                            </p>
+                        </h4>
+                    </div>
+                </li>
+                <li>
+                    <h5><img src="img/service_img02.jpg" alt=""></h5>
+                    <div>
+                        <h4 class="service_txt ">急速物流
+                            <p>
+                                急速物流,快速送达
+                            </p>
+                        </h4>
+                    </div>
+                </li>
+                <li>
+                    <h5><img src="img/service_img03.jpg" alt=""></h5>
+                    <div>
+                        <h4 class="service_txt ">无忧售后
+                            <p>
+                            7天无理由退货
+                            </p>
+                        </h4>
+                    </div>
+                </li>
+                <li>
+                    <h5><img src="img/service_img04.jpg" alt=""></h5>
+                    <div>
+                        <h4 class="service_txt ">特色服务
+                            <p>
+                            私人订制家电套装
+                            </p>
+                        </h4>
+                    </div>
+                </li>
+                <li>
+                    <h5><img src="img/service_img05.jpg" alt=""></h5>
+                    <div>
+                        <h4 class="service_txt ">帮助中心
+                            <p>
+                            您的购物指南
+                            </p>
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr class="hr1">
+        <div class="mod_help">
+            <dl class="help_d1">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><a href="# ">购物流程</a></dd>
+                    <dd><a href="# ">会员介绍</a></dd>
+                    <dd><a href="# ">生活旅行/团购</a></dd>
+                    <dd><a href="# ">常见问题</a></dd>
+                    <dd><a href="# ">大家电</a></dd>
+                    <dd><a href="# ">联系客服</a></dd>
+                </dl>
+            </dl>
+            <dl class="help_d2">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><a href="# ">购物流程</a></dd>
+                    <dd><a href="# ">会员介绍</a></dd>
+                    <dd><a href="# ">生活旅行/团购</a></dd>
+                    <dd><a href="# ">常见问题</a></dd>
+                    <dd><a href="# ">大家电</a></dd>
+                    <dd><a href="# ">联系客服</a></dd>
+                </dl>
+            </dl>
+            <dl class="help_d3">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><a href="# ">购物流程</a></dd>
+                    <dd><a href="# ">会员介绍</a></dd>
+                    <dd><a href="# ">生活旅行/团购</a></dd>
+                    <dd><a href="# ">常见问题</a></dd>
+                    <dd><a href="# ">大家电</a></dd>
+                    <dd><a href="# ">联系客服</a></dd>
+                </dl>
+            </dl>
+            <dl class="help_d4">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><a href="# ">购物流程</a></dd>
+                    <dd><a href="# ">会员介绍</a></dd>
+                    <dd><a href="# ">生活旅行/团购</a></dd>
+                    <dd><a href="# ">常见问题</a></dd>
+                    <dd><a href="# ">大家电</a></dd>
+                    <dd><a href="# ">联系客服</a></dd>
+                </dl>
+            </dl>
+            <dl class="help_d5">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><a href="# ">购物流程</a></dd>
+                    <dd><a href="# ">会员介绍</a></dd>
+                    <dd><a href="# ">生活旅行/团购</a></dd>
+                    <dd><a href="# ">常见问题</a></dd>
+                    <dd><a href="# ">大家电</a></dd>
+                    <dd><a href="# ">联系客服</a></dd>
+                </dl>
+            </dl>
+            <dl class="help_d6">
+                <dt>服务指南</dt>
+                <dl>
+                    <dd><img src="img/wx_cz.png" alt=""></dd>
+                    <dd>GOGOGO客户端</dd>
+                </dl>
+            </dl>
+        </div>
+        <hr class="hr2">
+        <div class="mod_copyright">
+            <p>
+                关于我们&nbsp;&nbsp;|&nbsp;&nbsp; 联系我们 &nbsp;&nbsp;| &nbsp;&nbsp;联系客服 &nbsp;&nbsp;| &nbsp;&nbsp;商家入驻 &nbsp;&nbsp;| &nbsp;&nbsp;营销中心&nbsp;&nbsp; | &nbsp;&nbsp;友情链接&nbsp;&nbsp; | &nbsp;&nbsp;销售联盟 &nbsp;&nbsp;| &nbsp;&nbsp;GOGOGO社区 &nbsp;&nbsp;|&nbsp;&nbsp; English Site&nbsp;&nbsp; | &nbsp;&nbsp;Contact U
+            </p>
+            <p>
+                地址：重庆市巴南区龙洲湾尚文大道906号&nbsp;邮编：401320&nbsp;电话：023-88968650&nbsp;邮箱：http://www.cqrz.edu.cn/
+            </p>
+            <p>渝ICP备16002634号-2渝公安网备&nbsp;50011302000385号</p>
+        </div>
+    </footer>
+
+    <!--悬浮侧边栏-->
+    <div class="suspension">
+        <div class="suspension-box">
+            <a href="#" class="a a-service "><i class="i"></i></a>
+            <a href="javascript:;" class="a a-service-phone "><i class="i"></i></a>
+            <a href="javascript:;" class="a a-qrcode"><i class="i"></i></a>
+            <a href="#" class="a a-cart"><i class="i"></i></a>
+            <a href="javascript:;" class="a a-top"><i class="i"></i></a>
+            <div class="d d-service">
+                <i class="arrow"></i>
+                <div class="inner-box">
+                    <div class="d-service-item clearfix">
+                        <a href="#" class="clearfix"><span class="circle"><i class="i-qq"></i></span><h3>咨询在线客服</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d d-service-phone">
+                <i class="arrow"></i>
+                <div class="inner-box">
+                    <div class="d-service-item clearfix">
+                        <span class="circle"><i class="i-tel"></i></span>
+                        <div class="text">
+                            <p>服务热线</p>
+                            <p class="red number">4001-021-758</p>
+                        </div>
+                    </div>
+                    <div class="d-service-intro clearfix">
+                        <p><i></i>功能和特性</p>
+                        <p><i></i>价格和优惠</p>
+                        <p><i></i>获取低价优惠</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d d-qrcode">
+                <i class="arrow"></i>
+                <div class="inner-box">
+                    <div class="qrcode-img"><img src="img/side_ewm.jpg" alt=""></div>
+                    <p>微信服务号</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript"  src="js/list.js"></script>
+</body>
+</html>
