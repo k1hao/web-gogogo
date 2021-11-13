@@ -1,0 +1,130 @@
+
+body{
+    color:rgb(112, 106, 106);
+}
+hr{
+    width: 99%;
+    height: 2px;
+    background-color: rgb(182, 31, 23);
+}
+.boxRegister{
+    width:1160px;
+    height: 450px;
+    border:2px solid rgb(236,236,236);
+    position: relative;
+    top:10px;
+    left:5%;
+}
+h2{
+    width: 1160px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size:17px;
+    background-color: rgb(230, 227, 227);
+    position: relative;
+    left:-300px;
+    top:-15px;
+}
+h2>span{
+    font-size:14px;
+    position: relative;
+    left:985px;
+}
+.boxRegister>span:first-child{
+    position: relative;
+    left: 20px;
+}
+.cregister{
+    width: 500px;
+    position: relative;
+    left:300px;
+}
+.cregister>span{
+    font-size:14px;
+    position: relative;
+    left:50px;
+}
+.a{
+    color:rgb(34, 124, 184);
+    text-decoration-line: none;
+}
+.cregister>h2>span>a{
+    color:red;
+}
+.cregister>h2>span>a:active{
+    color:red;
+}
+.clogin>h2>span>a{
+    color:red;
+}
+.input{
+    width: 250px;
+    height:30px;
+    margin:15px;
+}
+.captcha{
+    width: 135px;
+    height:30px;
+    margin:18px;
+}
+.btn{
+    width: 270px;
+    height:35px;
+    color:white;
+    font-size:19px;
+    border:none;
+    background-color:rgb(182, 31, 23);
+    position: relative;
+    top:20px;
+    left: 50px;
+}
+.btn2{
+    width: 270px;
+    height:35px;
+    color:white;
+    font-size:19px;
+    border:none;
+    background-color:rgb(182, 31, 23);
+    position: relative;
+    top:20px;
+    left: 50px;
+}
+.btn:hover{
+    background-color:rgb(252, 42, 31);
+}
+.btn2:hover{
+    background-color:rgb(252, 42, 31);
+}
+
+.boxLogin{
+    width:90%;
+    height: 450px;
+    border:2px solid rgb(236,236,236);
+    position: relative;
+    top:10px;
+    left:5%;
+    display: none;
+}
+.clogin{
+    width: 500px;
+    position: relative;
+    left:300px;
+}
+
+.mod_copyright{
+    margin-left: 90px;
+    font-size: 13px;
+    text-align: center;
+}
+
+#canvas {
+    width: 90px;
+    height: 35px;
+	margin:-95px 0 0 220px;
+	background:#fff;
+  	vertical-align: middle;
+  	box-sizing: border-box;
+    border: 1px solid rgb(182, 177, 177);
+    cursor: pointer;
+  }

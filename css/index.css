@@ -1,0 +1,502 @@
+/* nav导航栏部分 */
+.nav{
+    height:400px;
+}
+li{
+    list-style:none;
+}
+.dropdown{
+    margin:0 0 0 150px;
+    float:left;
+    text-align: center;
+}
+.dd{
+    position: relative;
+    top:-13px;
+    color:white;
+    background-color: #C81622;
+}
+.dt{
+    color: white;
+    line-height: 50px;
+    height: 50px;
+    background-color: #B1191A;
+    position: relative;
+}
+.dd>ul>li{
+    width: 200px;
+    height: 28px;
+    text-align: left;
+    margin:0 0 4px -27px;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+.dd>ul>li>a{
+    color:white;
+}
+
+.dd>ul>li>a:hover{
+    color:red;
+}
+.dd>ul>li:hover{
+    background-color: white;
+}
+
+.span1{
+    position: relative;
+    left:105px;
+}
+.span2{
+    position: relative;
+    left:40px;
+}
+.span3{
+    position: relative;
+    left:86px;
+}
+.span8{
+    position: relative;
+    left:65px;
+}
+.span9{
+    position: relative;
+    left:61px;
+}
+.span10{
+    position: relative;
+    left:65px;
+}
+.span11{
+    position: relative;
+    left:28px;
+}
+.span12{
+    position: relative;
+    left:105px;
+}
+.span13{
+    position: relative;
+    left:30px;
+}
+.navitems{
+    width: 650px;
+    position:relative;
+    left:-30px;
+    margin:-555px 270px;
+    float:right;
+}
+.navitems>ul>li{
+    margin:0 0 0 30px;
+    float:left;
+}
+.navitems>ul>li>a{
+    color:rgb(92, 89, 89);
+    font-weight: bold;
+}
+.navitems>ul>li :hover{
+    color:red;
+}
+
+
+hr{
+    position:absolute;
+    left:0px;
+    width:99%;
+    height:1px;
+    background-color: red;
+    margin:1px;
+}
+
+/*导航栏分类界面的弹出*/
+.drop {
+    width: 543px;
+    height:420px;
+    font-size:14px;
+    position:absolute;
+    left:214px;
+    top:0;
+    color:rgb(89,116,131);
+    background-color: white;
+    z-index: 9999;
+    display: none;
+}
+.drop li{
+    margin-left:10px;
+    position: relative;
+    float:left;
+    border:1px solid white;
+    border-bottom: 1px solid rgb(235, 239, 241);
+    margin-top:20px;
+}
+
+.lidrop:hover .drop{
+    display: block;
+}
+.lidrop2:hover .drop{
+    position:absolute;
+    top:32px;
+    display: block;
+}
+.lidrop3:hover .drop{
+    position:absolute;
+    top:44px;
+    display: block;
+}
+.lidrop13:hover .drop{
+    position:absolute;
+    top:57px;
+    display: block;
+}
+.drop li:nth-child(23){
+    width: 205px;
+}
+.drop li:nth-child(27){
+    width: 330px;
+}
+.drop li:nth-child(33){
+    width: 222px;
+}
+.drop li:nth-child(37){
+    width: 330px;
+}
+.drop li:nth-child(42){
+    width: 262px;
+}
+
+.drop li:nth-child(17){
+    position:relative;
+    left:-14px;
+}
+.drop li:nth-child(24){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(28){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(34){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(38){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(43){
+    position:relative;
+    left:-28px;
+}
+
+.drop li:nth-child(18){
+    position:relative;
+    left:-14px;
+}
+.drop li:nth-child(25){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(29){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(35){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(39){
+    position:relative;
+    left:-28px;
+}
+.drop li:nth-child(44){
+    position:relative;
+    left:-28px;
+}
+
+.drop li:nth-child(19){
+    position:relative;
+    left:-7px;
+}
+.drop li:nth-child(26){
+    position:relative;
+    left:-15px;
+}
+.drop li:nth-child(30){
+    position:relative;
+    left:-15px;
+}
+.drop li:nth-child(36){
+    position:relative;
+    left:-15px;
+}
+.drop li:nth-child(40){
+    position:relative;
+    left:-15px;
+}
+.drop li:nth-child(45){
+    position:relative;
+    left:-15px;
+}
+
+/*main部分*/
+.main{
+    width: 980px;
+    height: 10px;
+    margin-left: 220px;
+    position:relative;
+    left:90px;
+}
+.book-rotaion{
+    width: 800px;
+    margin:-340px;
+    position: relative;
+    left:295px;
+}
+#pics>li>a>img{ 
+    width:580px;
+    height:470px;
+    border:none;
+}
+ul,li,ol,dl{ 
+    list-style:none;
+}
+li,input,select,textarea{ 
+    vertical-align:middle;
+}
+
+#picshow ul{ 
+    width:580px; 
+    height:470px; 
+    overflow:hidden;  
+    position:absolute; 
+    left:60px; 
+    top:-20px;
+}
+#picshow li{ 
+    overflow:hidden; 
+}
+#picshow #circle{ 
+    position:relative;
+    left:170px;
+    top:430px;
+}
+#picshow #circle div{ 
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+    background-color:rgb(143, 132, 132);  
+    margin-right:5px;
+    position:relative;
+    top:-480px;
+    left:400px;
+    float: left;
+}
+#picshow #circle div.on{ 
+    background:rgb(135,180,222); 
+}
+
+/*news*/
+
+.news{
+    width:195px;
+    position: absolute;
+    left:640px;
+    font-size:16px;
+    color:rgb(89,91,99);
+
+}
+.news-hd{
+    width:260px;
+    height:50px;
+    border: 2px solid rgb(235,235,235);
+    position: relative;
+    line-height: 50px;
+}
+.news-hd>span{
+    margin-left:60px;
+}
+.anew{
+    font-weight: bold;
+    color:rgb(89, 91, 99);
+    margin-left:10px;
+}
+
+.news-bd{
+    position: relative;
+    top:40px;
+    left:-100px;
+    font-size: 13px;
+}
+.news-bd>ul{
+    border:2px solid rgb(235,235,235);
+    border-top: none;
+    background-color: rgb(255, 255, 255);
+    margin:-20px 0 0 40px;
+}
+.news-bd>ul>li>a{
+    color:rgb(89, 91, 99);
+    
+}
+.news-bd>ul>li{
+    margin:7px;
+}
+.news-bd>ul>li>a:hover{
+    color:red;
+    text-decoration:underline;
+}
+.news-bd>ul>li{
+    width:250px;
+    position: relative;
+    top:0px;
+    left:-40px;
+}
+.lifeservice{
+    width: 250px;
+    font-size:13px;
+    position:absolute;
+    left:550px;
+    top:190px;
+}
+.lifeservice>ul{
+    border:2px solid rgb(235,235,235);
+    border-top:none;
+    margin-left:30px;
+}
+.lifeservice>ul>li{
+    width: 55px;
+    position: relative;
+    top:-9px;
+    left:-30px;
+    float: left;
+
+}
+.lifeservice>ul>li:nth-child(5),
+.lifeservice>ul>li:nth-child(6),
+.lifeservice>ul>li:nth-child(7),
+.lifeservice>ul>li:nth-child(8),
+.lifeservice>ul>li:nth-child(9),
+.lifeservice>ul>li:nth-child(10),
+.lifeservice>ul>li:nth-child(11),
+.lifeservice>ul>li:nth-child(12){
+    margin-top:-14px;
+}
+
+.lifeservice>ul>li>img{
+    width:45px;
+    margin:12px;
+}
+.lifeservice>ul>li>span{
+    font-size: 11px;
+    position:relative;
+    top:-10px;
+    left:18px;
+}
+
+.bargain>img{
+    width: 262px;
+    height: 62px;
+    position:relative;
+    top:407px;
+    left:498px;
+}
+
+/*floor*/
+.floor>.box-hd{
+    width: 1064px;
+    height:35px;
+    border-bottom:2px solid red;
+    position:relative;
+    top:10px;
+    left:150px;
+    float: left;
+}
+.floor>.box-hd>.h3{
+    color:rgb(177,25,26);
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+.floor>.box-hd>.tab-list{
+    color:rgb(125, 129, 133);
+    font-size:13px;
+    line-height: 40px;
+    float: right;
+}
+.box-bd{
+    width:1063px;
+    height:360px;
+    font-size:13px;
+    position:absolute;
+    top:816px;
+    left:156px;
+}
+.box-bd>div{
+    float: left;
+}
+.img1>img{
+    width: 180px;
+    height:200px;
+    margin-top:10px;
+}
+.img1>ul>li{
+    width: 70px;
+    color:rgb(125, 129, 133);
+    text-align: center;
+    border-bottom:1px solid rgb(182, 174, 174);
+}
+.img1>ul>li:first-child,
+.img1>ul>li:nth-child(3),
+.img1>ul>li:nth-child(5){
+    position: relative;
+    left:-25px;
+}
+.img1>ul>li:nth-child(2),
+.img1>ul>li:nth-child(4),
+.img1>ul>li:nth-child(6){
+    position: relative;
+    top:-18px;
+    left:65px;
+}
+.img2>img{
+    width: 280px;
+    height: 340px;
+}
+.img3>img{
+    width: 190px;
+    height: 170px;
+    top:-2px;
+}
+.img3>img:nth-child(2){
+    border-top: 2px solid rgb(210, 214, 218);
+    position:relative;
+    top:171px;
+    left:-195px;
+}
+
+.img4>img{
+    height:345px;
+    border-left:2px solid rgb(210, 214, 218);
+    position: relative;
+    top:0px;
+    left:-194px;
+}
+.img5{
+    width: 200px;
+    position: relative;
+    top:-350px;
+    margin-left:864px;
+    border-left:2px solid rgb(210, 214, 218);
+}
+.img5>img{
+    width: 200px;
+    height:172px;
+}
+.img5>img:nth-child(2){
+    border-top:2px solid rgb(210, 214, 218);
+    position: relative;
+    top:0px;
+    left:0px;
+
+}
+

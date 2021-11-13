@@ -1,0 +1,142 @@
+@charset "utf-8";
+html,body,div,p{
+    margin:0;
+    padding: 0;
+}
+.cont{
+    width: 895px;
+    margin: 20px auto;
+    position: absolute;
+    top:190px;
+    left:15%;
+}
+.top {                    
+    width: 810px;
+    height: 70px;
+    margin: 0 50px;
+    position: relative;
+    font:bolder 14px/70px "";
+    background-color: #dedede;
+}
+
+.bgcolor:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 0 0 70px 70px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.top:after, .bgcolor:after {                         
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 70px 70px 0px 0px;
+    border-color: transparent #f00 transparent transparent;
+    border-style: solid;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.bgcolor:after {                          
+    border-color: transparent #dedede transparent transparent;
+}
+.top:after {                         
+    border-color:  transparent #fff  transparent  transparent;
+
+}
+.top > p {                         
+    display: inline-block;
+    width: 265px;
+    height: 70px;
+}
+
+.top span {
+    float: left;
+}
+
+.bgcolor {                         
+    position: relative;
+    background: #f00;
+    color: #fff;
+}
+
+.bgcolor > :first-child {                         
+    margin: 10px 0px 10px 65px;
+    width: 70px;
+    line-height: 25px;
+}
+#time1, #time2, #time3, #time4 {                          
+    font: bolder 18px/70px "";
+}
+.top>.font{                          
+    width: 160px;
+}
+.font :last-child{                         
+    margin: 20px 15px;                          
+    height: 30px;                      
+    padding: 0px 15px;                          
+    border: 1px solid #fff;                        
+    border-radius: 20px;                        
+    font:normal 12px/35px "";                         
+
+}
+.bottom{
+    width: 895px;
+    margin: 0 auto;
+}
+.item{                            
+    width: 415px;                   
+    height: 200px;
+    margin: 10px 15px;
+    float: left;
+    border: 1px solid #f00;       
+    font-size: 20px;
+}
+.item>div{                          
+    padding-top: 10px;               
+    float: left;                     
+}
+.txt>p{                                
+    margin-left: 20px;                 
+}
+.txt>:first-child+p{                  
+    color: #f00;                        
+    margin: 20px 20px 15px;            
+    font-size: 14px;
+}
+.price{                                 
+    border-top: 1px dashed #AEBDCC;   
+    padding-top: 15px;                   
+}
+
+.price>:first-child{                   
+    color: #f00;                        
+    font-size: 20px;                     
+}
+
+.price>:last-child{                     
+    color: #AEBDCC;                      
+    font-size: 14px;                  
+    margin-left: 40px;                    
+    text-decoration: line-through;      
+}
+.price+p>input{                          
+    width: 120px;                         
+    height: 30px;
+    margin-top: 20px;                     
+}
+.price+p>:first-child{                  
+    background: none;                    
+    font-size: 14px;                      
+    border: 1px solid #f00;            
+}
+.price+p>:last-child{                 
+    background: #f00;                    
+    color: #fff;                         
+    border: none;                        
+}
